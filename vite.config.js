@@ -9,9 +9,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, "index.html"),
-        accueil: resolve(__dirname, "pages/accueil.html"),
-        plus: resolve(__dirname, "pages/plus.html"),
-        // ajoutez d'autres pages si nécessaire
+        produit: resolve(__dirname, "pages/produit.html"),
+        compte: resolve(__dirname, "pages/compte.html"),
+        panier: resolve(__dirname, "pages/panier.html"),
+        inscription: resolve(__dirname, "pages/inscription.html"),
       },
     },
   },
