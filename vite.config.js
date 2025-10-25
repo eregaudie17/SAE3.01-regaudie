@@ -10,8 +10,6 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, "index.html"),
         produit: resolve(__dirname, "pages/produit.html"),
-        compte: resolve(__dirname, "pages/compte.html"),
-        panier: resolve(__dirname, "pages/panier.html"),
       },
     },
   },

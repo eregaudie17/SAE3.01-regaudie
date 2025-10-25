@@ -6,11 +6,299 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="/src/style.css" />
   </head>
-  <body>
-    <a
-      class="inline-flex border-2 border-blue-500 px-2.5 py-1 text-blue-500 hover:underline"
-      href="../index.html"
-      >Retour à l'accueil</a
+  <body class="font-family-ffbase text-light bg-dark">
+    <header class="flex w-full flex-col items-center justify-between">
+      <nav
+        class="bg-dark flex w-full flex-row items-center justify-between px-15 py-6"
+      >
+        <a href="/index.html"
+          ><img
+            src="/public/assets/Logo/Logo_Name WP.png"
+            class="w-60"
+            alt="Logo"
+        /></a>
+
+        <ul class="m-0 flex list-none flex-row items-center gap-6 p-0 text-xl">
+          <li
+            class="bg-light text-dark-blue flex flex-row items-center gap-5 rounded-xl px-5 py-2"
+          >
+            <img
+              src="/public/assets/images_site/Icon-search.png"
+              class="w-6"
+            /><input
+              type="text"
+              class="text-dark-blue bg-light placeholder:text-dark-blue w-96 border-0 outline-0"
+              placeholder="Rechercher des produits..."
+            />
+          </li>
+          <li class="hover:text-accent ml-10">
+            <a href="">Emmanuel Regaudie</a>
+          </li>
+          <li class="">
+            <a href=""
+              ><img src="/public/assets/images_site/Icon-cart.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="flex w-full flex-row items-start justify-center gap-15 px-96 py-30"
     >
+      <section class="flex w-fit flex-col items-center">
+        <img
+          src="../public/assets/Claviers/Vanguard Pro/Produit 1.webp"
+          class="img_produit"
+          alt="Vanguard Pro"
+        />
+        <ul
+          style="width: 600px"
+          class="flex flex-row items-center justify-center gap-4"
+        >
+          <li class="w-full">
+            <img
+              src="../public/assets/Claviers/Vanguard Pro/VANGUARD_PRO_m_EN_AA_Artboard05.jpg"
+              class="w-full"
+              alt=""
+            />
+          </li>
+          <li class="w-full">
+            <img
+              src="../public/assets/Claviers/Vanguard Pro/VANGUARD_PRO_m_EN_AA_Artboard11.jpg"
+              class="w-full"
+              alt=""
+            />
+          </li>
+          <li class="w-full">
+            <img
+              src="../public/assets/Claviers/Vanguard Pro/VANGUARD_PRO_m_EN_AA_Artboard12.jpg"
+              class="w-full"
+              alt=""
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="flex w-full flex-col items-start justify-start gap-7">
+        <h2 class="text-2xl font-bold">229,99€</h2>
+        <p>
+          Switchs magnétiques CORSAIR MGX Hyperdrive<br />
+          Taux d’interrogation de 8 000 Hz pour une frappe ultraréactive<br />
+          Format compact optimisé 96 %<br />
+          Écran LCD intégré dynamique pour une personnalisation de niveau
+          supérieur<br />
+          Intégration du Stream Deck Virtuel Elgato<br />
+          FlashTap SOCD – Bougez comme vous le pensez<br />
+          Technologie Rapid Trigger avec points d’actionnement dynamiques<br />
+          6 touches G dédiées, programmables et à profil bas<br />
+          Personnalisable via CORSAIR Web Hub
+        </p>
+        <article class="flex w-full flex-col items-start justify-start">
+          <h4 class="font-semibold">Repose poignet</h4>
+          <div
+            class="border-gray flex w-full flex-row items-center justify-between border px-4 py-3"
+          >
+            Avec
+            <img
+              src="../public/assets/images_site/Dropdown.png"
+              class=""
+              alt="Dropdown"
+            />
+          </div>
+        </article>
+        <article class="flex w-full flex-col items-start justify-start">
+          <h4 class="font-semibold">Touches de profils</h4>
+          <div
+            class="border-gray flex w-full flex-row items-center justify-between border px-4 py-3"
+          >
+            Avec
+            <img
+              src="../public/assets/images_site/Dropdown.png"
+              class=""
+              alt="Dropdown"
+            />
+          </div>
+          <a class="hover:text-accent" href="">Effacer</a>
+        </article>
+        <h2 class="text-2xl font-bold">229,99€</h2>
+        <div
+          class="border-b-gray flex w-full flex-col items-start gap-3 border-b pb-6"
+        >
+          50 en stock
+          <div class="flex flex-row items-center justify-start gap-3">
+            <div class="border-dark-gray border px-10 py-3">1</div>
+            <button
+              class="bg-accent text-dark hover:bg-dark-accent px-8 py-3 font-semibold uppercase hover:cursor-pointer"
+            >
+              Ajouter au panier
+            </button>
+          </div>
+        </div>
+        <div
+          class="border-b-gray flex w-full flex-row items-center justify-start gap-4 border-b pb-6"
+        >
+          <div class="flex flex-col items-start font-bold">
+            <p>Catégorie</p>
+            <p>Marque</p>
+          </div>
+          <div class="flex flex-row items-center justify-start gap-4">
+            <div class="flex flex-col items-start">
+              <p>Clavier</p>
+              <p>Corsair</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-dark flex w-full flex-col items-center justify-start gap-4 px-4 pt-8"
+    >
+      <section class="flex w-full flex-row items-start justify-between px-10">
+        <article class="flex flex-col items-start justify-start gap-5">
+          <img
+            src="/public/assets/Logo/Logo_Name WP.png"
+            class="w-60"
+            alt="Logo footer"
+          />
+          <p class="max-w-96">
+            Recevez des offres spéciales, des actualités exclusives sur les
+            produits et des informations sur les événements directement dans
+            votre boîte de réception.
+          </p>
+          <div class="flex flex-row items-center justify-center gap-6">
+            <input
+              class="placeholder:text-gray text-light bg-dark-gray border-light w-80 border py-2.5 pr-2 pl-2 outline-0"
+              type="email"
+              placeholder="Adresse E-mail"
+            />
+            <button
+              class="text-light bg-dark border-light hover:border-accent hover:text-accent border px-6 py-2.5 font-semibold uppercase hover:cursor-pointer"
+            >
+              S'inscrire
+            </button>
+          </div>
+          <ul class="flex flex-row items-center gap-5">
+            <li><img src="../public/assets/SM Logo/X.png" alt="X icône" /></li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/tiktok.png"
+                alt="tiktok icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/facebook.png"
+                alt="facebook icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/instagram.png"
+                alt="instagram icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/youtube.png"
+                alt="youtube icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/twitch.png"
+                alt="twitch icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/discord.png"
+                alt="discord icône"
+              />
+            </li>
+            <li>
+              <img
+                src="../public/assets/SM Logo/reddit.png"
+                alt="reddit icône"
+              />
+            </li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Boutique</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">Nouveaux produits</a></li>
+            <li>
+              <a class="hover:text-accent" class="hover:text-accent" href=""
+                >Offres spéciales</a
+              >
+            </li>
+            <li><a class="hover:text-accent" href="">Meilleures ventes</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Exclusivités Corsair.com</a>
+            </li>
+            <li><a class="hover:text-accent" href="">Où acheter</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Certifié Reconditionné</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Corsair.</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">À propos</a></li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Relations avec les<br />investisseurs</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Informations sur la chaîne<br />d’approvisionnement</a
+              >
+            </li>
+            <li><a class="hover:text-accent" href="">Carrières</a></li>
+            <li><a class="hover:text-accent" href="">Impact social</a></li>
+            <li><a class="hover:text-accent" href="">Espace Presse</a></li>
+            <li><a class="hover:text-accent" href="">Contactez-nous</a></li>
+            <li><a class="hover:text-accent" href="">Blog</a></li>
+            <li><a class="hover:text-accent" href="">Imprint</a></li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Assistance</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">Téléchargement</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Corsair Web Hub</a>
+            </li>
+            <li>
+              <a class="hover:text-accent" href="">Firmware Update Utility</a>
+            </li>
+            <li><a class="hover:text-accent" href="">Assistance client</a></li>
+            <li><a class="hover:text-accent" href="">Garantie</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Expédition/RMA/Retours</a>
+            </li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Conditions générales de vente</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+      <div
+        class="text-gray border-t-gray flex w-full flex-row items-center justify-between border-t py-2 text-xs"
+      >
+        <p>Copyright @ 1996 - 2024 CORSAIR. Tous droits réservés.</p>
+        <p>
+          Plan du site | Politique de confidentialité | Conditions d’utilisation
+          | Paramètres des cookies
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
