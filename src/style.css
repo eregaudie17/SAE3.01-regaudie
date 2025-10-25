@@ -46,4 +46,9 @@
     margin: 0;
     padding: 0;
   }
+
+  .card_img {
+    width: 360px;
+    height: 360px;
+  }
 }
