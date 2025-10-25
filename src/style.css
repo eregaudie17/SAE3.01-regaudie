@@ -1,6 +1,49 @@
+@font-face {
+  font-family: "Saira";
+  src: url("../public/fonts/Saira-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import "tailwindcss";
 
 @theme inline {
+  --font-family-ffbase: var(--ff-saira);
+
+  --color-dark: var(--clr-dark);
+  --color-dark-gray: var(--clr-dark-gray);
+  --color-gray: var(--clr-gray);
+  --color-light: var(--clr-light);
+  --color-dark-blue: var(--clr-dark-blue);
+  --color-blue: var(--clr-blue);
+  --color-light-blue: var(--clr-light-blue);
+  --color-dark-accent: var(--clr-dark-accent);
+  --color-accent: var(--clr-accent);
+
+  --color-dark-50: var(--clr-dark-50);
 }
-:root {
+
+@layer base {
+  :root {
+    --ff-saira: "Saira", sans-serif;
+
+    --clr-dark: #000000;
+    --clr-dark-gray: #2d2d2d;
+    --clr-gray: #6b6b6b;
+    --clr-light: #ffffff;
+    --clr-dark-blue: #1d1c29;
+    --clr-blue: #27293d;
+    --clr-light-blue: #4a4d6b;
+    --clr-dark-accent: #98961e;
+    --clr-accent: #ece81a;
+
+    --clr-dark-50: rgba(0, 0, 0, 0.5);
+  }
+
+  body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
 }

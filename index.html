@@ -6,30 +6,64 @@
     <title>Document</title>
     <link rel="stylesheet" href="/src/style.css" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold">Hello World Home</h1>
-    <a
-      class="inline-flex border-2 border-blue-500 px-2.5 py-1 text-blue-500 hover:underline"
-      href="pages/produit.html"
-      >produit</a
-    >
+  <body class="font-family-ffbase text-light bg-dark">
+    <header class="flex w-full flex-col items-center justify-between">
+      <nav
+        class="bg-dark flex w-full flex-row items-center justify-between px-15 py-6"
+      >
+        <a href="/index.html"
+          ><img
+            src="/public/assets/Logo/Logo_Name WP.png"
+            class="w-60"
+            alt="Logo"
+        /></a>
 
-    <a
-      class="inline-flex border-2 border-blue-500 px-2.5 py-1 text-blue-500 hover:underline"
-      href="pages/compte.html"
-      >compte</a
-    >
-
-    <a
-      class="inline-flex border-2 border-blue-500 px-2.5 py-1 text-blue-500 hover:underline"
-      href="pages/inscription.html"
-      >inscription</a
-    >
-
-    <a
-      class="inline-flex border-2 border-blue-500 px-2.5 py-1 text-blue-500 hover:underline"
-      href="pages/panier.html"
-      >panier</a
-    >
+        <ul class="m-0 flex list-none flex-row items-center gap-6 p-0 text-xl">
+          <li
+            class="bg-light text-dark-blue flex flex-row items-center gap-5 rounded-xl px-5 py-2"
+          >
+            <img
+              src="/public/assets/images_site/Icon-search.png"
+              class="w-6"
+            /><input
+              type="text"
+              class="text-dark-blue bg-light placeholder:text-dark-blue w-96 border-0 outline-0"
+              placeholder="Rechercher des produits..."
+            />
+          </li>
+          <li class="ml-10"><a href="">Emmanuel Regaudie</a></li>
+          <li class="">
+            <a href=""
+              ><img src="/public/assets/images_site/Icon-cart.png" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <section
+        class="flex w-full flex-col items-center bg-[url('/public/assets/images_site/BG1.png')] bg-cover bg-center bg-no-repeat"
+      >
+        <article class="bg-dark-50 flex w-full flex-col items-center">
+          <img
+            src="/public/assets/images_site/Clavier.png"
+            class="w-4/7"
+            alt="Clavier à la une"
+          />
+          <h3 class="text-4xl tracking-widest">
+            Conçu par des pros. Conçu pour gagner.
+          </h3>
+          <h1 class="-mt-4 text-9xl uppercase">Vanguard pro 96</h1>
+          <button
+            class="text-dark bg-accent hover:bg-dark hover:text-light border-accent hover:border-light cursor-pointer border px-8 py-4 text-center text-2xl font-bold uppercase duration-300 ease-in-out"
+          >
+            Achetez maintenant
+          </button>
+          <img
+            src="/public/assets/images_site/interface-arrows-button-down-double--arrow-arrows-double-down--Streamline-Core.png"
+            class="mt-3 mb-3 w-7"
+            alt="Flèche vers le bas"
+          />
+        </article>
+      </section>
+    </header>
   </body>
 </html>
