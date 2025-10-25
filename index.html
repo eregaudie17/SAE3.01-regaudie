@@ -36,7 +36,9 @@
               placeholder="Rechercher des produits..."
             />
           </li>
-          <li class="ml-10"><a href="">Emmanuel Regaudie</a></li>
+          <li class="hover:text-accent ml-10">
+            <a href="">Emmanuel Regaudie</a>
+          </li>
           <li class="">
             <a href=""
               ><img src="/public/assets/images_site/Icon-cart.png" />
@@ -417,15 +419,17 @@
         </div>
       </section>
     </main>
-    <footer class="bg-dark flex w-full flex-col items-center justify-start">
-      <section class="flex w-full flex-row items-center justify-between">
-        <article class="flex flex-col items-start justify-start">
+    <footer
+      class="bg-dark flex w-full flex-col items-center justify-start px-4 pt-8"
+    >
+      <section class="flex w-full flex-row items-start justify-between px-10">
+        <article class="flex flex-col items-start justify-start gap-5">
           <img
             src="/public/assets/Logo/Logo_Name WP.png"
-            class=""
+            class="w-60"
             alt="Logo footer"
           />
-          <p class="w-full">
+          <p class="max-w-96">
             Recevez des offres spéciales, des actualités exclusives sur les
             produits et des informations sur les événements directement dans
             votre boîte de réception.
@@ -442,8 +446,119 @@
               S'inscrire
             </button>
           </div>
+          <ul class="flex flex-row items-center gap-5">
+            <li><img src="public/assets/SM Logo/X.png" alt="X icône" /></li>
+            <li>
+              <img src="public/assets/SM Logo/tiktok.png" alt="tiktok icône" />
+            </li>
+            <li>
+              <img
+                src="public/assets/SM Logo/facebook.png"
+                alt="facebook icône"
+              />
+            </li>
+            <li>
+              <img
+                src="public/assets/SM Logo/instagram.png"
+                alt="instagram icône"
+              />
+            </li>
+            <li>
+              <img
+                src="public/assets/SM Logo/youtube.png"
+                alt="youtube icône"
+              />
+            </li>
+            <li>
+              <img src="public/assets/SM Logo/twitch.png" alt="twitch icône" />
+            </li>
+            <li>
+              <img
+                src="public/assets/SM Logo/discord.png"
+                alt="discord icône"
+              />
+            </li>
+            <li>
+              <img src="public/assets/SM Logo/reddit.png" alt="reddit icône" />
+            </li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Boutique</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">Nouveaux produits</a></li>
+            <li>
+              <a class="hover:text-accent" class="hover:text-accent" href=""
+                >Offres spéciales</a
+              >
+            </li>
+            <li><a class="hover:text-accent" href="">Meilleures ventes</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Exclusivités Corsair.com</a>
+            </li>
+            <li><a class="hover:text-accent" href="">Où acheter</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Certifié Reconditionné</a>
+            </li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Corsair.</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">À propos</a></li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Relations avec les<br />investisseurs</a
+              >
+            </li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Informations sur la chaîne<br />d’approvisionnement</a
+              >
+            </li>
+            <li><a class="hover:text-accent" href="">Carrières</a></li>
+            <li><a class="hover:text-accent" href="">Impact social</a></li>
+            <li><a class="hover:text-accent" href="">Espace Presse</a></li>
+            <li><a class="hover:text-accent" href="">Contactez-nous</a></li>
+            <li><a class="hover:text-accent" href="">Blog</a></li>
+            <li><a class="hover:text-accent" href="">Imprint</a></li>
+          </ul>
+        </article>
+
+        <article class="flex flex-col items-start justify-start gap-5">
+          <h3 class="text-2xl font-semibold uppercase">Assistance</h3>
+          <ul class="flex flex-col items-start gap-2">
+            <li><a class="hover:text-accent" href="">Téléchargement</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Corsair Web Hub</a>
+            </li>
+            <li>
+              <a class="hover:text-accent" href="">Firmware Update Utility</a>
+            </li>
+            <li><a class="hover:text-accent" href="">Assistance client</a></li>
+            <li><a class="hover:text-accent" href="">Garantie</a></li>
+            <li>
+              <a class="hover:text-accent" href="">Expédition/RMA/Retours</a>
+            </li>
+            <li>
+              <a class="hover:text-accent" href=""
+                >Conditions générales de vente</a
+              >
+            </li>
+          </ul>
         </article>
       </section>
+      <div
+        class="text-gray border-t-gray flex w-full flex-row items-center justify-between border-t py-2 text-xs"
+      >
+        <p>Copyright @ 1996 - 2024 CORSAIR. Tous droits réservés.</p>
+        <p>
+          Plan du site | Politique de confidentialité | Conditions d’utilisation
+          | Paramètres des cookies
+        </p>
+      </div>
     </footer>
   </body>
 </html>
