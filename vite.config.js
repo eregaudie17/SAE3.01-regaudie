@@ -12,7 +12,6 @@ export default defineConfig({
         produit: resolve(__dirname, "pages/produit.html"),
         compte: resolve(__dirname, "pages/compte.html"),
         panier: resolve(__dirname, "pages/panier.html"),
-        inscription: resolve(__dirname, "pages/inscription.html"),
       },
     },
   },
